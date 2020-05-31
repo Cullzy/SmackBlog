@@ -13,6 +13,15 @@
   margin-left: auto;
   margin-right: auto;
 }
+.login__header {
+  background-color: var(--loginHeaderBackgroundColor);
+  border-top-left-radius: var(--loginBorderRadius);
+  border-top-right-radius: var(--loginBorderRadius);
+  color: red;
+  padding: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
 .post{
   position: relative;
   background: #e3f2fd;
@@ -33,6 +42,7 @@
   margin-top: -17px;
   margin-left: -17px;
 }
+
 h1{
   font-family: Oak,sans-serif;
   color: rgba(0,0,0,0.7);
@@ -92,3 +102,4 @@ h1{
   100%{filter:hue-rotate(360deg);}
   
 }
+
